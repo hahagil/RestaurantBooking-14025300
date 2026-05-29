@@ -144,6 +144,12 @@
     <ClCompile Include="mail_sender.cpp" />
     <ClCompile Include="schedule.cpp" />
     <ClCompile Include="sms_sender.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="testable_booking_scheduler.cpp" />
+    <None Include="testable_mail_sender.cpp" />
+    <None Include="testable_sms_sender.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
